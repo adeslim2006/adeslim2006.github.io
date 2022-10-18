@@ -1,0 +1,81 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+body{
+    font-family: 'Outfit' , 'outfit' , sans-serif;
+    
+    z-index: 0;
+}
+
+@media (min-width: 375px) {
+    p{
+        font-size: 15px;
+    }
+}
+
+main{
+    position: relative;
+    top: 84px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsla(219, 60%, 45%, 0.2);
+  padding: 10px;
+}
+
+#blue-back {
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+    padding: 15px;
+    /*background-color: hsl(218, 44%, 22%)*/;
+    
+}
+
+#white-back  {
+    background-color: white;
+    border-radius: 5%;
+    z-index: 1;
+    padding: 10px;
+    
+}
+
+p {
+    font-weight: 700;
+    padding: 0px 15px 10px 20px;
+    font-size: 15px;
+}
+
+#qr {
+    border: 1px;
+    padding: 10px;
+    padding-bottom: 0px;
+    border-radius: 18px 18px 12px 12px;
+    max-width: 200px;
+    
+}
+
+.p1{
+    display: block;
+    padding: 0px 10px 10px 20px;
+    font-size: 12px;
+    position: relative;
+    top: -15px;
+    left: 0px;
+}
+.p2{
+    display: inline-block;
+    font-size: 13px;
+    padding: 0px 1px 10px 20px;
+    position: relative;
+    top: -20px;
+    left: -5px;
+}
+.p3{
+    display:  inline-block;
+    font-size: 13px;
+    padding: 0px 15px 10px 20px;
+    position: relative;
+    top: -25px;
+    left: 45px;
+}
